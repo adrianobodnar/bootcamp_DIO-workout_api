@@ -1,83 +1,50 @@
-# FastAPI
-### Quem é o FastAPi?
-Framework FastAPI, alta performance, fácil de aprender, fácil de codar, pronto para produção.
-FastAPI é um moderno e rápido (alta performance) framework web para construção de APIs com Python 3.6 ou superior, baseado nos type hints padrões do Python.
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="70px" src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg"></a>
+    <span>Python AI Backend Developer  </span>
+</h1>
 
-### Async
-Código assíncrono apenas significa que a linguagem tem um jeito de dizer para o computador / programa que em certo ponto, ele terá que esperar por algo para finalizar em outro lugar
+Repositório desenvolvido para fins didáticos, criado para armazenar os projetos desenvolvidos no  bootcamp  **bootcamp Coding The Future Vivo - Python AI Backend Developer** da [Digital Innovation One](https://www.dio.me/).
 
-# Projeto
-## WorkoutAPI
 
-Esta é uma API de competição de crossfit chamada WorkoutAPI (isso mesmo rs, eu acabei unificando duas coisas que gosto: codar e treinar). É uma API pequena, devido a ser um projeto mais hands-on e simplificado nós desenvolveremos uma API de poucas tabelas, mas com o necessário para você aprender como utilizar o FastAPI.
+<img align="center" width="250px" src="https://hermes.dio.me/files/assets/ef695d25-f647-45eb-b1ad-a25c124b28ca.png">
 
-## Modelagem de entidade e relacionamento - MER
-![MER](/mer.jpg "Modelagem de entidade e relacionamento")
 
-## Stack da API
 
-A API foi desenvolvida utilizando o `fastapi` (async), junto das seguintes libs: `alembic`, `SQLAlchemy`, `pydantic`. Para salvar os dados está sendo utilizando o `postgres`, por meio do `docker`.
 
-## Execução da API
+## Objetivo
+Desenvolver habilidades com projetos práticos, desafios de códigos e mentorias com experts da DIO.
 
-Para executar o projeto, utilizei a [pyenv](https://github.com/pyenv/pyenv), com a versão 3.11.4 do `python` para o ambiente virtual.
 
-Caso opte por usar pyenv, após instalar, execute:
 
-```bash
-pyenv virtualenv 3.11.4 workoutapi
-pyenv activate workoutapi
-pip install -r requirements.txt
-```
-Para subir o banco de dados, caso não tenha o [docker-compose](https://docs.docker.com/compose/install/linux/) instalado, faça a instalação e logo em seguida, execute:
+## Habilidades
 
-```bash
-make run-docker
-```
-Para criar uma migration nova, execute:
 
-```bash
-make create-migrations d="nome_da_migration"
-```
+🏆 GIT e  GITHUB
 
-Para criar o banco de dados, execute:
+🏆 Funções e estrutura de dados com Python
 
-```bash
-make run-migrations
-```
+🏆 Conceitos Orientação a Objetos (POO)
 
-## API
+🏆 SQL e NoSQL (MongoDB)
 
-Para subir a API, execute:
-```bash
-make run
-```
-e acesse: http://127.0.0.1:8000/docs
+🏆 FastAPI e Docker 
 
-# Desafio Final
-    - adicionar query parameters nos endpoints
-        - atleta
-            - nome
-            - cpf
-    - customizar response de retorno de endpoints
-        - get all
-            - atleta
-                - nome
-                - centro_treinamento
-                - categoria
-    - Manipular exceção de integridade dos dados em cada módulo/tabela
-        - sqlalchemy.exc.IntegrityError e devolver a seguinte mensagem: “Já existe um atleta cadastrado com o cpf: x”
-        - status_code: 303
-    - Adicionar paginação utilizando a lib: fastapi-pagination
-        - limit e offset
-# Referências
+🏆 IA
 
-FastAPI: https://fastapi.tiangolo.com/
 
-Pydantic: https://docs.pydantic.dev/latest/
+---
+## Desafio de Projeto da DIO
 
-SQLAlchemy: https://docs.sqlalchemy.org/en/20/
+⚠️ Criando uma API RESTful Assíncrona Para Um Sistema Bancário Com FastAPI e Python - Entenda como a abstração e modelagem são aliados para APIs mais semânticas e coesas.
 
-Alembic: https://alembic.sqlalchemy.org/en/latest/
 
-Fastapi-pagination: https://uriyyo-fastapi-pagination.netlify.app/
+⚠️ Simplificando a Criação de Soluções Inteligentes com LangChain e Python - Conheça as tendências em IA Generativa (segundo a Base10) para soluções AI-based
+
+⚠️ Natural ou Fake Natty? Como Vencer na Era das IAs Generativas! - Transforme suas ideias em aplicações inteligentes com facilidade e eficiência.
+
+
+
+Trilha com mais de 67 horas que vai desde os fundamentos de Python até o desenvolvimento de APIs com FastAPI, incluindo a importância dos bancos de dados SQL e NoSQL. Inclui ainda um módulo sobre IA, passando por tópicos essenciais como ML, NLP, LLM e IA Generativa 
+
+
